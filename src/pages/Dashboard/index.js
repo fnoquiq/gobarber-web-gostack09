@@ -34,23 +34,23 @@ export default function Dashboard() {
       const response = await api.get('schedule', {
         params: { date },
       });
-
       const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
       const data = range.map(hour => {
         const checkDate = setSeconds(setMinutes(setHours(date, hour), 0), 0);
         const compareDate = utcToZonedTime(checkDate, timezone);
-
         return {
           time: `${hour}:00h`,
           past: isBefore(compareDate, new Date()),
           appointment: response.data.find(a =>
-            isEqual(parseISO(a.date), compareDate)
+            isEqual(Date.parse(parseISO(a.date)), Date.parse(compareDate))
           ),
         };
       });
+
       setSchedule(data);
     }
+
     loadSchedule();
   }, [date]);
 
@@ -79,7 +79,7 @@ export default function Dashboard() {
           <Time key={time.time} past={time.past} available={!time.appointment}>
             <strong>{time.time}</strong>
             <span>
-              {time.appointment ? time.appointment.use.nane : 'Em aberto'}
+              {time.appointment ? time.appointment.user.name : 'Em aberto'}
             </span>
           </Time>
         ))}
