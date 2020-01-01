@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://s3.us-east-2.amazonaws.com/gobarber-img/logo.svg" height = "150"/>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## :open_book: Páginas:
 
-### `yarn start`
+#### :unlock: Cadastro:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Cadastro](https://github.com/fnoquiq/gobarber-web/blob/master/.github/create-account.gif)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### :unlock: Login:
 
-### `yarn test`
+![Login](https://github.com/fnoquiq/gobarber-web/blob/master/.github/login.gif)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### :closed_lock_with_key: Meu perfil:
 
-### `yarn build`
+![Meu-perfil](https://github.com/fnoquiq/gobarber-web/blob/master/.github/my-profile.gif)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### :closed_lock_with_key: Dashboard:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**:construction: A COLOCAR**
+![dashboard](https://github.com/fnoquiq/gobarber-web/blob/master/.github/dashboard.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+## :hammer: Configuração:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Antes de executar este, garanta que a [API](https://github.com/fnoquiq/gobarber-api) esteja configurada e em funcionamento.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Modo de desenvolvimento:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Execute `yarn start`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Executa o aplicativo no modo de desenvolvimento.<br />
+Abra [http://localhost:3000](http://localhost:3000) para ver o resultado no seu navegador.
 
-## Learn More
+A página será recarregada se você fizer edições.<br />
+Você também verá os erros no console.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Modo de produção:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Execute `yarn build`.
 
-### Code Splitting
+Constroi o aplicativo para produção na pasta `build`.<br />
+Neste modo, ele agrupa corretamente o React no modo de produção e otimiza a construção para obter o melhor desempenho.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+A compilação é minificada e os nomes de arquivos incluem os hashes.<br />
 
-### Analyzing the Bundle Size
+Veja mais informações sobre o modo de [produção](https://facebook.github.io/create-react-app/docs/deployment)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+---
 
-### Making a Progressive Web App
+## :rocket: APP GOBARBER
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Api criado no bootcamp da Rocketseat
 
-### Advanced Configuration
+![Bootcamp](https://rocketseat.com.br/static/images/update/bootcamp.svg)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Este projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
