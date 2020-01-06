@@ -1,5 +1,7 @@
 <img src="https://s3.us-east-2.amazonaws.com/gobarber-img/logo.svg" height = "150"/>
 
+Este projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
+
 ---
 
 ## :open_book: Páginas:
@@ -18,7 +20,6 @@
 
 #### :closed_lock_with_key: Dashboard:
 
-**:construction: A COLOCAR**
 ![dashboard](https://github.com/fnoquiq/gobarber-web/blob/master/.github/dashboard.gif)
 
 ---
@@ -50,10 +51,22 @@ Veja mais informações sobre o modo de [produção](https://facebook.github.io/
 
 ---
 
+### Ferramenta para Debug
+
+Você pode usar o [Reactotron](https://github.com/infinitered/reactotron/releases) para facilitar a depuração do aplicativo web e também do mobile.
+
+![REACTOTRON](https://github.com/fnoquiq/gobarber-web/blob/master/.github/reactotron.png)
+
+---
+
 ## :rocket: APP GOBARBER
 
 - Api criado no bootcamp da Rocketseat
 
 ![Bootcamp](https://rocketseat.com.br/static/images/update/bootcamp.svg)
 
-Este projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
+### [GoBarber API](https://github.com/fnoquiq/gobarber-api)
+
+### [GoBarber WEB](https://github.com/fnoquiq/gobarber-web)
+
+### [GoBarber MOBILE](https://github.com/fnoquiq/gobarber-mobile)
